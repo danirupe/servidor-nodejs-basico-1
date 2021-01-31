@@ -9,7 +9,7 @@ const port = 8060;
 
 // El método createServer() de http crea un nuevo servidor HTTP y lo devuelve
 const server = http.createServer((req, res) => {
-  // Código de estado indicando que la operación ha sido satisfactoria.
+  // Código de estado indicando que la operación ha sido satisfactoria (200).
   res.statusCode = 200;
   // Tipo de contenido que vamos a recibir
   res.setHeader("Content-Type", "text/plain");
